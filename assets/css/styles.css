@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+* body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    background-color: #FFCB14;
+}
+
+.container_icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_img {
+    width: 20%;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container_box {
+    display: flex;
+    border: 1px solid #ffcb14;
+    border-radius: 4px;
+    padding: 10px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container__botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcb14;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1px solid;
+    cursor: pointer;
+}
+.container__botao:hover {
+    background-color: black;
+}
+
+.container_link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    gap: 50%;
+}
+
+.rodape {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5%; 
+    background-color: #ffffff; 
+    border: 2px solid #ffffff;
+}
+
+
+
